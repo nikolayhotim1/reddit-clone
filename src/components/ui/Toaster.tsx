@@ -10,7 +10,7 @@ import {
 } from '@/components/ui/Toast'
 import { useToast } from '@/hooks/use-toast'
 
-export default function Toaster() {
+export function Toaster() {
 	const { toasts } = useToast()
 	return (
 		<ToastProvider>

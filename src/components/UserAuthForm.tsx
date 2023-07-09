@@ -9,10 +9,7 @@ import { useState } from 'react'
 
 interface UserAuthFormProps extends React.HTMLAttributes<HTMLDivElement> {}
 
-export default function UserAuthForm({
-	className,
-	...props
-}: UserAuthFormProps) {
+export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
 	const { toast } = useToast()
 	const [isLoading, setIsLoading] = useState<boolean>(false)
 

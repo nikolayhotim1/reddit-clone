@@ -10,7 +10,7 @@ interface LayoutProps {
 	children: ReactNode
 }
 
-export default function Providers({ children }: LayoutProps) {
+export function Providers({ children }: LayoutProps) {
 	return (
 		<QueryClientProvider client={queryClient}>
 			<SessionProvider>{children}</SessionProvider>

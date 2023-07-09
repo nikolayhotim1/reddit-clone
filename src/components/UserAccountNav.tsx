@@ -10,13 +10,13 @@ import {
 	DropdownMenuSeparator,
 	DropdownMenuTrigger
 } from '@/components/ui/DropdownMenu'
-import UserAvatar from '@/components/UserAvatar'
+import { UserAvatar } from '@/components/UserAvatar'
 
 interface UserAccountNavProps extends React.HTMLAttributes<HTMLDivElement> {
 	user: Pick<User, 'name' | 'image' | 'email'>
 }
 
-export default function UserAccountNav({ user }: UserAccountNavProps) {
+export function UserAccountNav({ user }: UserAccountNavProps) {
 	return (
 		<DropdownMenu>
 			<DropdownMenuTrigger>
