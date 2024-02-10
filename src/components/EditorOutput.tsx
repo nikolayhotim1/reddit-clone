@@ -41,7 +41,6 @@ const style = {
 
 export function EditorOutput({ content }: EditorOutputProps) {
 	return (
-		// @ts-expect-error
 		<Output
 			style={style}
 			className='text-sm'
