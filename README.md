@@ -1,8 +1,6 @@
-# Breadit - A Modern Fullstack Reddit Clone
+# Full-Stack Reddit Clone: Next, React, MySQL, Prisma, TypeScript, Tailwind
 
-Built with the Next.js App Router, TypeScript & Tailwind
-
-## Features
+Key Features:
 
 - Infinite scrolling for dynamically loading posts
 - Authentication using NextAuth & Google
